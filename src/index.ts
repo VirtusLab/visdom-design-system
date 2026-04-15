@@ -67,6 +67,9 @@ export type { Impact, BeforeAfterProps } from "./components/domain/before-after"
 export { Callout } from "./components/domain/callout";
 export type { CalloutType, CalloutProps } from "./components/domain/callout";
 
+export { FaqAccordion } from "./components/domain/faq-accordion";
+export type { FaqItem, FaqAccordionProps } from "./components/domain/faq-accordion";
+
 export { CtaCard } from "./components/domain/cta-card";
 export type { CtaCardProps } from "./components/domain/cta-card";
 
@@ -133,6 +136,38 @@ export type {
   TimelineStep,
   TimelineProps,
 } from "./components/domain/timeline";
+
+export { AiRadar } from "./components/domain/ai-radar";
+export type {
+  AiRadarStat,
+  AiRadarProps,
+} from "./components/domain/ai-radar";
+
+export { SeriesCard } from "./components/domain/series-card";
+export type {
+  SeriesArticle,
+  SeriesCardProps,
+} from "./components/domain/series-card";
+
+export { MaturityRef } from "./components/domain/maturity-ref";
+export type {
+  MaturityLevel,
+  MaturityRefProps,
+} from "./components/domain/maturity-ref";
+
+export { Pillars } from "./components/domain/pillars";
+export type { Pillar, PillarsProps } from "./components/domain/pillars";
+
+export { PlatformSection } from "./components/domain/platform-section";
+export type { PlatformSectionProps } from "./components/domain/platform-section";
+
+export { PlatformBlock } from "./components/domain/platform-block";
+export type {
+  PlatformBlockTagColor,
+  PlatformBlockTag,
+  PlatformBlockCta,
+  PlatformBlockProps,
+} from "./components/domain/platform-block";
 
 // Layout Components
 export { DocLayout } from "./components/layout/doc-layout";
