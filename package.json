@@ -18,7 +18,7 @@
   "sideEffects": ["*.css"],
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "vite build && tsc -p tsconfig.build.json --emitDeclarationOnly",
+    "build": "vite build && tsc -p tsconfig.build.json --emitDeclarationOnly && node -e \"const fs=require('fs');['dist/index.js','dist/index.cjs'].forEach(f=>{const c=fs.readFileSync(f,'utf8');fs.writeFileSync(f,'\\\"use client\\\";\\n'+c)})\"",
     "build:storybook": "storybook build",
     "test": "vitest run",
     "test:watch": "vitest",
