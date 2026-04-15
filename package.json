@@ -11,9 +11,10 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
-    "./styles.css": "./dist/styles.css"
+    "./styles.css": "./src/styles/globals.css",
+    "./tailwind-content": "./dist/*.js"
   },
-  "files": ["dist"],
+  "files": ["dist", "src/styles"],
   "sideEffects": ["*.css"],
   "scripts": {
     "dev": "storybook dev -p 6006",
