@@ -6,7 +6,8 @@
       "Bash(npm run *)",
       "Bash(npx tsc *)",
       "Bash(npm test *)",
-      "Bash(git tag *)"
+      "Bash(git tag *)",
+      "Bash(npm link *)"
     ]
   }
 }

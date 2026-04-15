@@ -70,6 +70,12 @@ export type { CalloutType, CalloutProps } from "./components/domain/callout";
 export { FaqAccordion } from "./components/domain/faq-accordion";
 export type { FaqItem, FaqAccordionProps } from "./components/domain/faq-accordion";
 
+export { VirtusLabLogo, VirtusLabMark } from "./components/domain/virtuslab-logo";
+export type {
+  VirtusLabLogoProps,
+  VirtusLabMarkProps,
+} from "./components/domain/virtuslab-logo";
+
 export { CtaCard } from "./components/domain/cta-card";
 export type { CtaCardProps } from "./components/domain/cta-card";
 
