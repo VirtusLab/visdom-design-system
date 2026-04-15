@@ -1,7 +1,14 @@
 {
-  "name": "@visdom/ui",
+  "name": "@virtuslab/visdom-ui",
   "version": "0.1.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VirtusLab/visdom-design-system.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
