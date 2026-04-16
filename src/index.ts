@@ -73,6 +73,9 @@ export type { CalloutType, CalloutProps } from "./components/domain/callout";
 export { FaqAccordion } from "./components/domain/faq-accordion";
 export type { FaqItem, FaqAccordionProps } from "./components/domain/faq-accordion";
 
+export { VisdomBrand } from "./components/domain/visdom-brand";
+export type { VisdomBrandProps } from "./components/domain/visdom-brand";
+
 export { VirtusLabLogo, VirtusLabMark } from "./components/domain/virtuslab-logo";
 export type {
   VirtusLabLogoProps,
