@@ -51,7 +51,7 @@ export function FaqAccordion({ items, className }: FaqAccordionProps) {
               </span>
             </button>
             {isOpen && (
-              <div className="px-5 py-4 text-sm leading-relaxed text-muted-foreground [&>p]:mb-3 [&>p:last-child]:mb-0">
+              <div className="px-5 py-4 text-sm leading-relaxed text-foreground/70 [&>p]:mb-3 [&>p:last-child]:mb-0">
                 {item.answer}
               </div>
             )}
