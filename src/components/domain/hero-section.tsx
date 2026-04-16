@@ -15,8 +15,8 @@ export interface HeroAction {
 }
 
 export interface HeroSectionProps {
-  title: string;
-  subtitle: string;
+  title: React.ReactNode;
+  subtitle: React.ReactNode;
   badge?: string;
   stats?: HeroStat[];
   actions?: HeroAction[];

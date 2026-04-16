@@ -24,8 +24,8 @@ export function FaqAccordion({ items, className }: FaqAccordionProps) {
             className={cn(
               "rounded-xl border overflow-hidden transition-colors",
               isOpen
-                ? "border-blue-500 bg-white"
-                : "border-gray-200 bg-gray-50/50"
+                ? "border-primary/40 bg-card"
+                : "border-border bg-card/50 hover:bg-card"
             )}
           >
             <button
@@ -36,22 +36,22 @@ export function FaqAccordion({ items, className }: FaqAccordionProps) {
                 "text-left text-[0.95rem] font-semibold cursor-pointer",
                 "transition-colors",
                 isOpen
-                  ? "text-blue-700 border-b border-gray-200"
-                  : "text-gray-900 hover:text-blue-700"
+                  ? "text-primary border-b border-border"
+                  : "text-foreground hover:text-primary"
               )}
             >
               <span>{item.question}</span>
               <span
                 className={cn(
                   "text-xl leading-none flex-shrink-0 transition-colors",
-                  isOpen ? "text-blue-500" : "text-gray-400"
+                  isOpen ? "text-primary" : "text-muted-foreground"
                 )}
               >
                 {isOpen ? "\u2212" : "+"}
               </span>
             </button>
             {isOpen && (
-              <div className="px-5 py-4 text-sm leading-relaxed text-gray-600 [&>p]:mb-3 [&>p:last-child]:mb-0">
+              <div className="px-5 py-4 text-sm leading-relaxed text-muted-foreground [&>p]:mb-3 [&>p:last-child]:mb-0">
                 {item.answer}
               </div>
             )}
