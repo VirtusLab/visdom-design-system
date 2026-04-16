@@ -61,6 +61,9 @@ export {
 } from "./components/ui/tooltip";
 
 // Domain Components
+export { Breadcrumb } from "./components/domain/breadcrumb";
+export type { BreadcrumbProps } from "./components/domain/breadcrumb";
+
 export { BeforeAfter } from "./components/domain/before-after";
 export type { Impact, BeforeAfterProps } from "./components/domain/before-after";
 
@@ -78,6 +81,18 @@ export type {
 
 export { CtaCard } from "./components/domain/cta-card";
 export type { CtaCardProps } from "./components/domain/cta-card";
+
+export { DocPageHeader } from "./components/domain/doc-page-header";
+export type {
+  DocPageHeaderTag,
+  DocPageHeaderProps,
+} from "./components/domain/doc-page-header";
+
+export { DocPagination } from "./components/domain/doc-pagination";
+export type {
+  DocPaginationLink,
+  DocPaginationProps,
+} from "./components/domain/doc-pagination";
 
 export { HeroSection } from "./components/domain/hero-section";
 export type {
@@ -190,3 +205,6 @@ export type { NavLink, NavProps } from "./components/layout/nav";
 
 export { Section } from "./components/layout/section";
 export type { SectionProps } from "./components/layout/section";
+
+export { TopBar } from "./components/layout/top-bar";
+export type { TopBarProps } from "./components/layout/top-bar";
