@@ -9,9 +9,8 @@ const defaultLinks = [
 describe("Footer", () => {
   it("renders default brand", () => {
     render(<Footer links={defaultLinks} />);
-    expect(screen.getByText("Dom")).toBeInTheDocument();
-    expect(screen.getByText("Vis")).toBeInTheDocument();
-    expect(screen.getByText("Powered by VirtusLab")).toBeInTheDocument();
+    expect(screen.getByText("Visdom")).toBeInTheDocument();
+    expect(screen.getByText(/Powered by VirtusLab/)).toBeInTheDocument();
   });
 
   it("renders custom brand when provided", () => {

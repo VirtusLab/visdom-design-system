@@ -30,7 +30,7 @@ export const CustomBrand: Story = {
     brand: (
       <div className="text-sm text-muted-foreground">
         <span className="font-bold text-foreground">Acme Corp</span>
-        {" · "}Built with VisDom
+        {" · "}Built with Visdom
       </div>
     ),
     links,

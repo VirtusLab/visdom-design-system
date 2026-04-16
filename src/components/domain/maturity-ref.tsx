@@ -50,7 +50,7 @@ export function MaturityRef({
           Where does your organization stand?
         </h2>
         <p className="text-muted-foreground mt-4 mb-12 max-w-xl mx-auto">
-          The VisDom Maturity Matrix maps 60 practices across 4
+          The Visdom Maturity Matrix maps 60 practices across 4
           perspectives and 5 maturity levels.
         </p>
 

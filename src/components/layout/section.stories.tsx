@@ -12,7 +12,7 @@ type Story = StoryObj<typeof Section>;
 export const WithLabelTitleSubtitle: Story = {
   args: {
     id: "features",
-    label: "Why VisDom",
+    label: "Why Visdom",
     title: "Everything your team needs for world-class code review",
     subtitle:
       "From foundational lint gates to deep AI analysis — a layered approach that grows with your engineering maturity.",

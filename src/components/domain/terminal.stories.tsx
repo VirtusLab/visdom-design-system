@@ -26,7 +26,7 @@ export const Default: Story = {
 export const InstallCommand: Story = {
   args: {
     title: "Terminal",
-    children: `# Install VisDom CLI
+    children: `# Install Visdom CLI
 $ npm install -g @visdom/cli
 
 # Authenticate with your workspace
@@ -69,7 +69,7 @@ export const CustomTitle: Story = {
   Delta compression using up to 8 threads.
   Compressing objects: 100% (8/8), done.
 
-  remote: VisDom review triggered...
+  remote: Visdom review triggered...
   remote: Layer 1–2 scan running...
   remote: ✓ All gates passed
   remote:

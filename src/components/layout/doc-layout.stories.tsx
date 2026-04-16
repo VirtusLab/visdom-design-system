@@ -34,7 +34,7 @@ const SidebarContent = () => (
 const MainContent = () => (
   <>
     <p>
-      This guide walks you through setting up VisDom in your repository. By the end you will
+      This guide walks you through setting up Visdom in your repository. By the end you will
       have Layer 0–2 gates running on every pull request.
     </p>
     <h2>Prerequisites</h2>
@@ -44,7 +44,7 @@ const MainContent = () => (
       <li>CI/CD pipeline (GitHub Actions, GitLab CI, or CircleCI)</li>
     </ul>
     <h2>Installation</h2>
-    <p>Install the VisDom CLI globally:</p>
+    <p>Install the Visdom CLI globally:</p>
     <pre className="bg-muted rounded p-4 text-sm font-mono">
       npm install -g @visdom/cli
     </pre>
@@ -57,7 +57,7 @@ const MainContent = () => (
     </pre>
     <h2>Verify your setup</h2>
     <p>
-      Open a pull request and check that the VisDom status check appears in the GitHub
+      Open a pull request and check that the Visdom status check appears in the GitHub
       Checks tab within 30 seconds.
     </p>
   </>

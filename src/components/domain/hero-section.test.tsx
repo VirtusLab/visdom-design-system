@@ -3,8 +3,8 @@ import { HeroSection } from "./hero-section";
 
 describe("HeroSection", () => {
   it("renders title and subtitle", () => {
-    render(<HeroSection title="Welcome to VisDom" subtitle="A great design system" />);
-    expect(screen.getByText("Welcome to VisDom")).toBeInTheDocument();
+    render(<HeroSection title="Welcome to Visdom" subtitle="A great design system" />);
+    expect(screen.getByText("Welcome to Visdom")).toBeInTheDocument();
     expect(screen.getByText("A great design system")).toBeInTheDocument();
   });
 

@@ -7,10 +7,9 @@ const defaultLinks = [
 ];
 
 describe("Nav", () => {
-  it("renders default VisDom brand", () => {
+  it("renders default Visdom brand", () => {
     render(<Nav links={defaultLinks} />);
-    expect(screen.getByText("Dom")).toBeInTheDocument();
-    expect(screen.getByText("Vis")).toBeInTheDocument();
+    expect(screen.getByText("Visdom")).toBeInTheDocument();
   });
 
   it("renders custom brand when provided", () => {

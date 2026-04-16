@@ -21,9 +21,7 @@ export function Nav({ brand, links, cta, className }: NavProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const defaultBrand = (
-    <span className="text-lg font-bold">
-      <span className="text-emerald-500">Vis</span>Dom
-    </span>
+    <span className="text-lg font-bold">Visdom</span>
   );
 
   return (

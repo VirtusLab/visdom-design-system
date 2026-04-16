@@ -32,7 +32,7 @@ const sharedActions = [
 export const Light: Story = {
   args: {
     variant: "light",
-    badge: "VisDom Design System",
+    badge: "Visdom Design System",
     title: "Ship better code, faster",
     subtitle:
       "A structured approach to AI-assisted code review that reduces cycle time, catches defects earlier, and scales across your engineering organisation.",
@@ -44,7 +44,7 @@ export const Light: Story = {
 export const Dark: Story = {
   args: {
     variant: "dark",
-    badge: "VisDom Design System",
+    badge: "Visdom Design System",
     title: "Ship better code, faster",
     subtitle:
       "A structured approach to AI-assisted code review that reduces cycle time, catches defects earlier, and scales across your engineering organisation.",

@@ -14,9 +14,7 @@ export interface FooterProps {
 
 const DefaultBrand = () => (
   <div className="flex items-center gap-2 text-sm text-muted-foreground">
-    <span className="font-bold text-foreground/80">
-      <span className="text-emerald-500">Vis</span>Dom
-    </span>
+    <span className="font-bold text-foreground/80">Visdom</span>
     <span>&middot;</span>
     <span>Powered by VirtusLab</span>
   </div>
