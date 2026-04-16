@@ -90,7 +90,7 @@ export const WithoutSidebar: Story = {
     children: (
       <>
         <p>
-          Complete reference for all VisDom CLI commands and configuration options.
+          Complete reference for all Visdom CLI commands and configuration options.
         </p>
         <h2>Commands</h2>
         <p>The CLI exposes the following top-level commands.</p>
@@ -124,7 +124,7 @@ export const Minimal: Story = {
     title: "Contributing Guide",
     children: (
       <>
-        <p>Thank you for considering contributing to VisDom!</p>
+        <p>Thank you for considering contributing to Visdom!</p>
         <p>Please read this guide before opening your first pull request.</p>
       </>
     ),
