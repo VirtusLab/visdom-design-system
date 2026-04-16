@@ -34,10 +34,10 @@ export function AiRadar({
       {/* Header */}
       <div className="flex items-center gap-3 mb-6">
         <span className="relative flex h-2.5 w-2.5">
-          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-blue-400 opacity-75" />
-          <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-blue-500" />
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
+          <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-primary" />
         </span>
-        <span className="text-xs font-semibold uppercase tracking-wider text-blue-600">
+        <span className="text-xs font-semibold uppercase tracking-wider text-primary">
           Live
         </span>
         <h2 className="text-2xl sm:text-3xl font-bold text-foreground font-heading">
@@ -90,7 +90,7 @@ export function AiRadar({
         href={ctaHref}
         target="_blank"
         rel="noopener"
-        className="inline-flex items-center px-6 py-2.5 rounded-full text-sm font-medium bg-blue-600 text-white hover:bg-blue-500 transition-colors"
+        className="inline-flex items-center px-6 py-2.5 rounded-full text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
       >
         {ctaLabel} &rarr;
       </a>

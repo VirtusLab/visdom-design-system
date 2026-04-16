@@ -27,7 +27,7 @@ export function FeatureCard({
         className
       )}
     >
-      {icon && <div className="text-blue-600">{icon}</div>}
+      {icon && <div className="text-primary">{icon}</div>}
 
       {abbreviation && (
         <span className="inline-block self-start rounded bg-muted px-2 py-0.5 text-xs font-bold font-mono text-foreground">
@@ -36,7 +36,7 @@ export function FeatureCard({
       )}
 
       {label && (
-        <span className="text-xs font-medium text-blue-600 uppercase tracking-wide">
+        <span className="text-xs font-medium text-primary uppercase tracking-wide">
           {label}
         </span>
       )}

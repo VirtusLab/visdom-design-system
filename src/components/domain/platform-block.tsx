@@ -85,7 +85,7 @@ export function PlatformBlock({
             className={cn(
               "inline-flex items-center px-5 py-2 rounded-full text-sm font-medium transition-colors",
               i === 0
-                ? "bg-blue-600 text-white hover:bg-blue-500"
+                ? "bg-primary text-primary-foreground hover:bg-primary/90"
                 : "border border-border text-foreground hover:bg-accent"
             )}
             {...(cta.external

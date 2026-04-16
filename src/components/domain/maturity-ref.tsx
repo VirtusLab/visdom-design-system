@@ -105,7 +105,7 @@ export function MaturityRef({
             href={assessmentHref}
             target="_blank"
             rel="noopener"
-            className="inline-flex items-center px-6 py-2.5 rounded-full text-sm font-medium bg-blue-600 text-white hover:bg-blue-500 transition-colors"
+            className="inline-flex items-center px-6 py-2.5 rounded-full text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
           >
             Take the Self-Assessment
           </a>

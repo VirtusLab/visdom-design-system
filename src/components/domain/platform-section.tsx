@@ -20,7 +20,7 @@ export function PlatformSection({
     <section className={cn("py-24", className)}>
       <div className="container">
         {label && (
-          <p className="text-xs font-semibold uppercase tracking-wider text-blue-600 mb-3">
+          <p className="text-xs font-semibold uppercase tracking-wider text-primary mb-3">
             {label}
           </p>
         )}

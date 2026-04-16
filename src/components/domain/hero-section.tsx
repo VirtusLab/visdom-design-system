@@ -115,8 +115,7 @@ export function HeroSection({
               <div key={i} className="flex flex-col">
                 <span
                   className={cn(
-                    "text-3xl font-bold",
-                    isDark ? "text-blue-400" : "text-blue-600"
+                    "text-3xl font-bold text-primary"
                   )}
                 >
                   {stat.value}

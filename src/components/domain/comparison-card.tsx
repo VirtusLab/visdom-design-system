@@ -20,7 +20,7 @@ export function ComparisonCard({
         className
       )}
     >
-      <span className="inline-block text-xs font-medium text-blue-600 uppercase tracking-wide mb-2">
+      <span className="inline-block text-xs font-medium text-primary uppercase tracking-wide mb-2">
         {label}
       </span>
       <h3 className="text-lg font-bold text-foreground mb-4">{title}</h3>
@@ -30,7 +30,7 @@ export function ComparisonCard({
             key={i}
             className="flex items-start gap-2 text-sm text-muted-foreground leading-relaxed"
           >
-            <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-blue-500 shrink-0" />
+            <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-primary shrink-0" />
             {item}
           </li>
         ))}

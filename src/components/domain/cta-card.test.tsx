@@ -55,7 +55,7 @@ describe("CtaCard", () => {
     expect(link).not.toHaveAttribute("target", "_blank");
   });
 
-  it("highlighted card applies primary (blue) color to title", () => {
+  it("highlighted card applies primary color to title", () => {
     render(
       <CtaCard
         icon="⭐"
@@ -66,7 +66,7 @@ describe("CtaCard", () => {
       />
     );
     const titleEl = screen.getByText("Featured");
-    expect(titleEl.className).toMatch(/blue/);
+    expect(titleEl.className).toMatch(/text-primary/);
   });
 
   it("non-highlighted card does not apply blue color to title", () => {
