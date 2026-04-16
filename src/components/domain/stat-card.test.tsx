@@ -11,12 +11,12 @@ describe("StatCard", () => {
     expect(screen.getByText("Internal report 2024")).toBeInTheDocument();
   });
 
-  it("color 'green' applies emerald classes", () => {
+  it("color 'green' applies blue classes", () => {
     const { container } = render(
       <StatCard value="10x" label="Growth" source="Source A" color="green" />
     );
     const root = container.firstChild as HTMLElement;
-    expect(root.className).toMatch(/emerald/);
+    expect(root.className).toMatch(/blue/);
   });
 
   it("color 'blue' applies blue classes", () => {

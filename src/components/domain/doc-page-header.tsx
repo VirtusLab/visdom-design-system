@@ -13,7 +13,7 @@ export interface DocPageHeaderProps {
 }
 
 const tagStyles: Record<NonNullable<DocPageHeaderTag["variant"]>, string> = {
-  green: "bg-emerald-50 text-emerald-700 border-emerald-200",
+  green: "bg-blue-50 text-blue-700 border-blue-200",
   gray: "bg-gray-100 text-gray-600 border-gray-200",
   outline: "bg-transparent text-gray-500 border-gray-300",
 };

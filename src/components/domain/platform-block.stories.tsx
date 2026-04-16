@@ -20,7 +20,7 @@ export const Default: Story = {
       "60 practices across 4 perspectives and 5 maturity levels. Know exactly where your organization stands on AI readiness — and what to improve next.",
     tags: [
       { label: "Interactive Assessment", color: "blue" },
-      { label: "Workshop Mode", color: "emerald" },
+      { label: "Workshop Mode", color: "blue" },
     ],
     ctas: [
       {
@@ -57,7 +57,7 @@ export const Default: Story = {
                     color: [
                       "#71717a",
                       "#0d9488",
-                      "#059669",
+                      "#2563eb",
                       "#16a34a",
                       "#22c55e",
                     ][i],
@@ -71,7 +71,7 @@ export const Default: Story = {
                     color: [
                       "#71717a",
                       "#0d9488",
-                      "#059669",
+                      "#2563eb",
                       "#16a34a",
                       "#22c55e",
                     ][i],
@@ -99,7 +99,7 @@ export const Reversed: Story = {
     note: "Powered by Visdom Developer Intelligence — deterministic code expertise, blast radius analysis, and ownership graphs via MCP.",
     tags: [
       { label: "Open Source", color: "blue" },
-      { label: "MCP Server", color: "emerald" },
+      { label: "MCP Server", color: "blue" },
       { label: "CLI", color: "purple" },
     ],
     ctas: [
@@ -150,7 +150,7 @@ export const NoVisual: Story = {
       "AI agents need room to experiment without breaking things. Ephemeral, fully isolated environments where agents can execute code, run tests, and iterate freely — with zero risk to production.",
     note: "Powered by Sandcat — lightweight, disposable execution environments built for agentic workflows.",
     tags: [
-      { label: "Isolation", color: "emerald" },
+      { label: "Isolation", color: "blue" },
       { label: "Ephemeral Environments", color: "blue" },
       { label: "Zero Side Effects", color: "purple" },
     ],

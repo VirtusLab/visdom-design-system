@@ -33,7 +33,7 @@ export const ThreeLevels: Story = {
   args: {
     levels: [
       { id: "L1", name: "Beginning", bg: "#f4f4f5", text: "#71717a" },
-      { id: "L2", name: "Intermediate", bg: "#d1fae5", text: "#059669" },
+      { id: "L2", name: "Intermediate", bg: "#d1fae5", text: "#2563eb" },
       { id: "L3", name: "Advanced", bg: "#bbf7d0", text: "#22c55e" },
     ],
     perspectives: ["Development", "Operations"],

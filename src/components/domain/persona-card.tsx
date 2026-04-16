@@ -12,7 +12,7 @@ export interface PersonaCardProps {
 }
 
 const borderColors: Record<PersonaCardColor, string> = {
-  green: "border-l-emerald-500",
+  green: "border-l-blue-500",
   blue: "border-l-blue-500",
   purple: "border-l-purple-500",
   amber: "border-l-amber-500",
@@ -20,7 +20,7 @@ const borderColors: Record<PersonaCardColor, string> = {
 };
 
 const badgeColors: Record<PersonaCardColor, string> = {
-  green: "bg-emerald-100 text-emerald-700",
+  green: "bg-blue-100 text-blue-700",
   blue: "bg-blue-100 text-blue-700",
   purple: "bg-purple-100 text-purple-700",
   amber: "bg-amber-100 text-amber-700",
@@ -30,7 +30,7 @@ const badgeColors: Record<PersonaCardColor, string> = {
 export function PersonaCard({
   name,
   role,
-  color = "green",
+  color = "blue",
   children,
   className,
 }: PersonaCardProps) {

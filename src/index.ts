@@ -113,6 +113,13 @@ export type {
   LayerBadgeProps,
 } from "./components/domain/layer-badge";
 
+export { LayerDiagram } from "./components/domain/layer-diagram";
+export type {
+  Layer,
+  Dashboard,
+  LayerDiagramProps,
+} from "./components/domain/layer-diagram";
+
 export { LevelCard } from "./components/domain/level-card";
 export type {
   MatrixItem,

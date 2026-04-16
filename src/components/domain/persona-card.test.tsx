@@ -21,14 +21,14 @@ describe("PersonaCard", () => {
     expect(screen.getByText("Child content here")).toBeInTheDocument();
   });
 
-  it("default color is green (has emerald class in container)", () => {
+  it("default color is green (has blue class in container)", () => {
     const { container } = render(
       <PersonaCard name="Carol" role="Manager">
         Content
       </PersonaCard>
     );
     const root = container.firstChild as HTMLElement;
-    expect(root.className).toMatch(/emerald/);
+    expect(root.className).toMatch(/blue/);
   });
 
   it("color 'blue' applies blue border class", () => {

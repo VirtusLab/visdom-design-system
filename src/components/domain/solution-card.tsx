@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
-export type TagColor = "emerald" | "blue" | "purple" | "amber";
+export type TagColor = "blue" | "purple" | "amber";
 
 export interface SolutionCardTag {
   label: string;
@@ -27,7 +27,6 @@ export interface SolutionCardProps {
 }
 
 const tagColors: Record<TagColor, string> = {
-  emerald: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
   blue: "bg-blue-500/10 text-blue-400 border-blue-500/20",
   purple: "bg-purple-500/10 text-purple-400 border-purple-500/20",
   amber: "bg-amber-500/10 text-amber-400 border-amber-500/20",
@@ -68,14 +67,14 @@ export function SolutionCard({
       <h4 className="text-xl font-bold text-white mb-1">{title}</h4>
       <p className="text-sm text-white/40 mb-4">{subtitle}</p>
 
-      <blockquote className="text-sm text-white/60 italic border-l-2 border-emerald-500/30 pl-4 mb-5">
+      <blockquote className="text-sm text-white/60 italic border-l-2 border-blue-500/30 pl-4 mb-5">
         {problem}
       </blockquote>
 
       <ul className="space-y-2 mb-5">
         {capabilities.map((cap, i) => (
           <li key={i} className="flex items-start gap-2 text-sm text-white/70">
-            <span className="text-emerald-400 mt-0.5 shrink-0">&#x25B8;</span>
+            <span className="text-blue-400 mt-0.5 shrink-0">&#x25B8;</span>
             {cap}
           </li>
         ))}

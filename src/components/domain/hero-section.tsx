@@ -50,8 +50,8 @@ export function HeroSection({
             className={cn(
               "inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-medium mb-8",
               isDark
-                ? "bg-emerald-900/40 border border-emerald-500/20 text-emerald-400"
-                : "bg-emerald-50 border border-emerald-200 text-emerald-700"
+                ? "bg-blue-900/40 border border-blue-500/20 text-blue-400"
+                : "bg-blue-50 border border-blue-200 text-blue-700"
             )}
           >
             {badge}
@@ -92,8 +92,8 @@ export function HeroSection({
                       ? "border border-white/30 text-white hover:border-white/60"
                       : "border border-border text-foreground hover:bg-accent"
                     : isDark
-                    ? "bg-emerald-500 text-white hover:bg-emerald-400"
-                    : "bg-emerald-600 text-white hover:bg-emerald-500"
+                    ? "bg-blue-500 text-white hover:bg-blue-400"
+                    : "bg-blue-600 text-white hover:bg-blue-500"
                 )}
               >
                 {action.label}
@@ -109,7 +109,7 @@ export function HeroSection({
                 <span
                   className={cn(
                     "text-3xl font-bold",
-                    isDark ? "text-emerald-400" : "text-emerald-600"
+                    isDark ? "text-blue-400" : "text-blue-600"
                   )}
                 >
                   {stat.value}

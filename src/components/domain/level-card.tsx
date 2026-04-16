@@ -21,7 +21,7 @@ export interface GuideInfo {
 const LEVEL_COLORS: Record<number, string> = {
   1: "from-zinc-500/15 to-zinc-500/5 text-zinc-500 border-zinc-500/20",
   2: "from-teal-600/15 to-teal-600/5 text-teal-600 border-teal-600/20",
-  3: "from-emerald-600/15 to-emerald-600/5 text-emerald-600 border-emerald-600/20",
+  3: "from-blue-600/15 to-blue-600/5 text-blue-600 border-blue-600/20",
   4: "from-green-500/15 to-green-500/5 text-green-500 border-green-500/20",
   5: "from-green-400/15 to-green-400/5 text-green-400 border-green-400/20",
 };
@@ -29,7 +29,7 @@ const LEVEL_COLORS: Record<number, string> = {
 const LEVEL_HOVER_GLOW: Record<number, string> = {
   1: "hover:shadow-zinc-500/10",
   2: "hover:shadow-teal-600/10",
-  3: "hover:shadow-emerald-600/10",
+  3: "hover:shadow-blue-600/10",
   4: "hover:shadow-green-500/10",
   5: "hover:shadow-green-400/10",
 };
@@ -37,7 +37,7 @@ const LEVEL_HOVER_GLOW: Record<number, string> = {
 const LEVEL_BADGE_COLORS: Record<number, string> = {
   1: "bg-zinc-500",
   2: "bg-teal-600",
-  3: "bg-emerald-600",
+  3: "bg-blue-600",
   4: "bg-green-500",
   5: "bg-green-400",
 };

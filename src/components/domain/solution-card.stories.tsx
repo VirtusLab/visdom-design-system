@@ -28,7 +28,7 @@ export const Full: Story = {
       "Configurable gates that block merge on critical findings",
     ],
     tags: [
-      { label: "AI", color: "emerald" },
+      { label: "AI", color: "blue" },
       { label: "Security", color: "blue" },
       { label: "Automation", color: "purple" },
     ],
@@ -58,7 +58,7 @@ export const Minimal: Story = {
     ],
     tags: [
       { label: "Linting", color: "amber" },
-      { label: "Testing", color: "emerald" },
+      { label: "Testing", color: "blue" },
     ],
     ctas: [{ label: "Setup guide", href: "#setup" }],
   },

@@ -13,7 +13,7 @@ export function ImpactNumber({ before, after, label, className }: ImpactNumberPr
       <div className="inline-flex items-center gap-2">
         <span className="text-lg line-through text-red-400">{before}</span>
         <span className="text-gray-400">→</span>
-        <span className="text-2xl font-bold text-emerald-600">{after}</span>
+        <span className="text-2xl font-bold text-blue-600">{after}</span>
       </div>
       <span className="text-xs text-gray-500 mt-1">{label}</span>
     </div>

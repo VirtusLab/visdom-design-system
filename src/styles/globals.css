@@ -87,9 +87,9 @@
   --sidebar-accent-foreground: oklch(0.25 0.01 155);
   --sidebar-border: oklch(0.88 0.006 250);
   --sidebar-ring: oklch(0.62 0.17 155);
-  --visdom-green: #10b981;
-  --visdom-green-light: #ecfdf5;
-  --visdom-green-dark: #059669;
+  --visdom-green: #3b82f6;
+  --visdom-green-light: #eff6ff;
+  --visdom-green-dark: #2563eb;
   --visdom-blue: #0693e3;
   --visdom-purple: #9b51e0;
   --visdom-amber: #f59e0b;

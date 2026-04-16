@@ -60,12 +60,12 @@ export function SeriesCard({
         href={featured.href}
         target="_blank"
         rel="noopener"
-        className="block rounded-lg bg-muted border border-border p-4 mb-4 hover:border-emerald-500/30 transition-colors group"
+        className="block rounded-lg bg-muted border border-border p-4 mb-4 hover:border-blue-500/30 transition-colors group"
       >
         <span className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground mb-2 block">
           Latest
         </span>
-        <span className="text-sm font-medium text-foreground group-hover:text-emerald-600 transition-colors block mb-1">
+        <span className="text-sm font-medium text-foreground group-hover:text-blue-600 transition-colors block mb-1">
           {featured.title}
         </span>
         <span className="text-xs text-muted-foreground">
@@ -81,7 +81,7 @@ export function SeriesCard({
             href={article.href}
             target="_blank"
             rel="noopener"
-            className="flex justify-between items-baseline py-2.5 border-b border-border text-sm text-muted-foreground hover:text-emerald-600 transition-colors"
+            className="flex justify-between items-baseline py-2.5 border-b border-border text-sm text-muted-foreground hover:text-blue-600 transition-colors"
           >
             <span className="truncate pr-4">{article.title}</span>
             <span className="text-xs text-muted-foreground whitespace-nowrap">

@@ -30,10 +30,10 @@ describe("Callout", () => {
     expect(root.className).toMatch(/amber/);
   });
 
-  it("type 'tip' has emerald classes", () => {
+  it("type 'tip' has blue classes", () => {
     const { container } = render(<Callout type="tip">Tip content</Callout>);
     const root = container.firstChild as HTMLElement;
-    expect(root.className).toMatch(/emerald/);
+    expect(root.className).toMatch(/blue/);
   });
 
   it("defaults to type 'info' (blue classes)", () => {

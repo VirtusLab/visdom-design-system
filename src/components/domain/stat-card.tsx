@@ -15,9 +15,9 @@ const colorMap: Record<
   { bg: string; border: string; text: string }
 > = {
   green: {
-    bg: "bg-emerald-50",
-    border: "border-emerald-500",
-    text: "text-emerald-600",
+    bg: "bg-blue-50",
+    border: "border-blue-500",
+    text: "text-blue-600",
   },
   blue: {
     bg: "bg-blue-50",

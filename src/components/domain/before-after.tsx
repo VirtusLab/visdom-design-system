@@ -36,9 +36,9 @@ export function BeforeAfter({
             {before}
           </div>
         </div>
-        <div className="border border-emerald-200 bg-emerald-50/50 rounded-lg p-4">
+        <div className="border border-blue-200 bg-blue-50/50 rounded-lg p-4">
           <div className="flex items-center gap-2 mb-3">
-            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-emerald-100 text-emerald-700">
+            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-blue-100 text-blue-700">
               AFTER
             </span>
           </div>
@@ -56,7 +56,7 @@ export function BeforeAfter({
                   {impact.before}
                 </span>
                 <span className="text-gray-400">→</span>
-                <span className="text-xl font-bold text-emerald-600">
+                <span className="text-xl font-bold text-blue-600">
                   {impact.after}
                 </span>
               </div>

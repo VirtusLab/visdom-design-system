@@ -12,7 +12,7 @@ type Story = StoryObj<typeof SeriesCard>;
 export const Default: Story = {
   args: {
     title: "Agent-Native CI",
-    color: "#10b981",
+    color: "#3b82f6",
     description:
       "A deep dive into building CI/CD pipelines optimized for AI agent workflows — from sandboxing to machine-speed feedback loops.",
     stats: "5 articles",
@@ -77,7 +77,7 @@ export const TwoCards: Story = {
     <div className="grid md:grid-cols-2 gap-6 max-w-4xl">
       <SeriesCard
         title="Agent-Native CI"
-        color="#10b981"
+        color="#3b82f6"
         description="Building CI/CD pipelines for AI agents."
         stats="5 articles"
         featured={{

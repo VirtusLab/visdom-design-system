@@ -13,7 +13,7 @@ export interface CalloutProps {
 const styles: Record<CalloutType, string> = {
   info: "bg-blue-50 border-blue-200 text-blue-800",
   warning: "bg-amber-50 border-amber-200 text-amber-800",
-  tip: "bg-emerald-50 border-emerald-200 text-emerald-800",
+  tip: "bg-blue-50 border-blue-200 text-blue-800",
   reference: "bg-gray-50 border-gray-200 text-gray-700",
 };
 

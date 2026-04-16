@@ -26,7 +26,7 @@ export function CtaCard({
       className={cn(
         "block rounded-xl border bg-card p-8 text-center group transition-colors",
         highlighted
-          ? "border-emerald-500/30 hover:border-emerald-500 text-foreground"
+          ? "border-blue-500/30 hover:border-blue-500 text-foreground"
           : "border-border hover:border-border/80",
         className
       )}
@@ -35,7 +35,7 @@ export function CtaCard({
       <div
         className={cn(
           "text-base font-semibold mb-2",
-          highlighted ? "text-emerald-600" : "text-foreground"
+          highlighted ? "text-blue-600" : "text-foreground"
         )}
       >
         {title}

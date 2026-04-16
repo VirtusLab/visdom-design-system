@@ -7,7 +7,7 @@ const defaultProps = {
   problem: "Manual reviews take too long",
   capabilities: ["Detects bugs", "Enforces standards"],
   tags: [
-    { label: "AI", color: "emerald" as const },
+    { label: "AI", color: "blue" as const },
     { label: "DevOps", color: "blue" as const },
   ],
   ctas: [

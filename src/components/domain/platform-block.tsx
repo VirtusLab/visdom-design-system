@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
-export type PlatformBlockTagColor = "emerald" | "blue" | "purple" | "amber";
+export type PlatformBlockTagColor = "blue" | "purple" | "amber";
 
 export interface PlatformBlockTag {
   label: string;
@@ -28,7 +28,6 @@ export interface PlatformBlockProps {
 }
 
 const tagColors: Record<PlatformBlockTagColor, string> = {
-  emerald: "bg-emerald-500/10 text-emerald-600 border-emerald-500/20",
   blue: "bg-blue-500/10 text-blue-600 border-blue-500/20",
   purple: "bg-purple-500/10 text-purple-600 border-purple-500/20",
   amber: "bg-amber-500/10 text-amber-600 border-amber-500/20",
@@ -86,7 +85,7 @@ export function PlatformBlock({
             className={cn(
               "inline-flex items-center px-5 py-2 rounded-full text-sm font-medium transition-colors",
               i === 0
-                ? "bg-emerald-600 text-white hover:bg-emerald-500"
+                ? "bg-blue-600 text-white hover:bg-blue-500"
                 : "border border-border text-foreground hover:bg-accent"
             )}
             {...(cta.external

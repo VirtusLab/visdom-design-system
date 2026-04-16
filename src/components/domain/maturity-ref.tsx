@@ -18,7 +18,7 @@ export interface MaturityRefProps {
 const defaultLevels: MaturityLevel[] = [
   { id: "L1", name: "Ad-hoc", bg: "#f4f4f5", text: "#71717a" },
   { id: "L2", name: "Guided", bg: "#ccfbf1", text: "#0d9488" },
-  { id: "L3", name: "Systematic", bg: "#d1fae5", text: "#059669" },
+  { id: "L3", name: "Systematic", bg: "#d1fae5", text: "#2563eb" },
   { id: "L4", name: "Optimized", bg: "#dcfce7", text: "#16a34a" },
   { id: "L5", name: "Autonomous", bg: "#bbf7d0", text: "#22c55e" },
 ];
@@ -42,7 +42,7 @@ export function MaturityRef({
       className={cn("py-24", className)}
       style={{
         borderTop: "1px solid #d1fae5",
-        background: "linear-gradient(180deg, #ecfdf5 0%, #ffffff 100%)",
+        background: "linear-gradient(180deg, #eff6ff 0%, #ffffff 100%)",
       }}
     >
       <div className="container text-center">
@@ -105,7 +105,7 @@ export function MaturityRef({
             href={assessmentHref}
             target="_blank"
             rel="noopener"
-            className="inline-flex items-center px-6 py-2.5 rounded-full text-sm font-medium bg-emerald-600 text-white hover:bg-emerald-500 transition-colors"
+            className="inline-flex items-center px-6 py-2.5 rounded-full text-sm font-medium bg-blue-600 text-white hover:bg-blue-500 transition-colors"
           >
             Take the Self-Assessment
           </a>

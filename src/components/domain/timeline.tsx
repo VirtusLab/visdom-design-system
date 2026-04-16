@@ -25,14 +25,14 @@ export function Timeline({ steps, className }: TimelineProps) {
             key={step.number}
             className="relative z-10 flex flex-col items-center text-center w-1/4 px-3"
           >
-            <div className="w-10 h-10 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-sm mb-3">
+            <div className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold text-sm mb-3">
               {step.number}
             </div>
             <div className="font-bold text-gray-900 text-sm mb-1">
               {step.title}
             </div>
             {step.duration && (
-              <div className="text-xs text-emerald-600 font-medium mb-1">
+              <div className="text-xs text-blue-600 font-medium mb-1">
                 {step.duration}
               </div>
             )}
@@ -49,7 +49,7 @@ export function Timeline({ steps, className }: TimelineProps) {
         <div className="flex flex-col gap-8">
           {steps.map((step) => (
             <div key={step.number} className="relative z-10 flex items-start gap-4">
-              <div className="w-10 h-10 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">
+              <div className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">
                 {step.number}
               </div>
               <div>
@@ -57,7 +57,7 @@ export function Timeline({ steps, className }: TimelineProps) {
                   {step.title}
                 </div>
                 {step.duration && (
-                  <div className="text-xs text-emerald-600 font-medium">
+                  <div className="text-xs text-blue-600 font-medium">
                     {step.duration}
                   </div>
                 )}
