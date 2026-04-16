@@ -8,7 +8,7 @@ export interface TopBarProps {
 
 export function TopBar({ href = "https://virtuslab.com", className }: TopBarProps) {
   return (
-    <div className={cn("bg-gray-100 border-b border-gray-200", className)}>
+    <div className={cn("bg-gray-100 dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800", className)}>
       <div className="max-w-[1080px] mx-auto px-6 py-1.5">
         <a
           href={href}
@@ -16,7 +16,7 @@ export function TopBar({ href = "https://virtuslab.com", className }: TopBarProp
           rel="noopener noreferrer"
           className="inline-flex items-center"
         >
-          <VirtusLabLogo className="text-gray-400" />
+          <VirtusLabLogo className="text-gray-400 dark:text-gray-500" />
         </a>
       </div>
     </div>
