@@ -7,6 +7,7 @@ export interface StatCardProps {
   label: string;
   source: string;
   color: StatCardColor;
+  href?: string;
   className?: string;
 }
 
@@ -41,20 +42,41 @@ const colorMap: Record<
   },
 };
 
-export function StatCard({ value, label, source, color, className }: StatCardProps) {
+export function StatCard({ value, label, source, color, href, className }: StatCardProps) {
   const c = colorMap[color];
-  return (
-    <div
-      className={cn(
-        "rounded-lg p-5 border-l-4",
-        c.bg,
-        c.border,
-        className
-      )}
-    >
+
+  const content = (
+    <>
       <div className={cn("text-3xl font-bold mb-1", c.text)}>{value}</div>
       <div className="text-sm text-gray-600 line-clamp-3">{label}</div>
       <div className="text-xs text-gray-400 italic mt-2">{source}</div>
+    </>
+  );
+
+  const sharedClassName = cn(
+    "rounded-lg p-5 border-l-4 block",
+    c.bg,
+    c.border,
+    href && "transition-shadow hover:shadow-md hover:ring-1 hover:ring-border",
+    className
+  );
+
+  if (href) {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={sharedClassName}
+      >
+        {content}
+      </a>
+    );
+  }
+
+  return (
+    <div className={sharedClassName}>
+      {content}
     </div>
   );
 }

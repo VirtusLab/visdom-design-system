@@ -60,6 +60,16 @@ export const Purple: Story = {
   },
 };
 
+export const WithLink: Story = {
+  args: {
+    value: "73%",
+    label: "of teams report faster code review cycle times after adopting AI tooling",
+    source: "McKinsey Developer Velocity, 2024",
+    color: "green",
+    href: "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/unleashing-developer-productivity-with-generative-ai",
+  },
+};
+
 export const AllColors: Story = {
   render: () => (
     <div className="grid grid-cols-2 gap-4 max-w-lg">

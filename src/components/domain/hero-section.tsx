@@ -1,3 +1,4 @@
+import type React from "react";
 import { cn } from "@/lib/utils";
 
 export interface HeroStat {
@@ -19,6 +20,7 @@ export interface HeroSectionProps {
   badge?: string;
   stats?: HeroStat[];
   actions?: HeroAction[];
+  tagline?: React.ReactNode;
   variant?: "light" | "dark";
   className?: string;
 }
@@ -29,6 +31,7 @@ export function HeroSection({
   badge,
   stats,
   actions,
+  tagline,
   variant = "light",
   className,
 }: HeroSectionProps) {
@@ -100,6 +103,10 @@ export function HeroSection({
               </a>
             ))}
           </div>
+        )}
+
+        {tagline && (
+          <p className="text-sm text-muted-foreground mt-8">{tagline}</p>
         )}
 
         {stats && stats.length > 0 && (

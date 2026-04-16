@@ -200,6 +200,28 @@ export type {
   PlatformBlockProps,
 } from "./components/domain/platform-block";
 
+export { NumberedCard } from "./components/domain/numbered-card";
+export type { NumberedCardProps } from "./components/domain/numbered-card";
+
+export { FeatureCard } from "./components/domain/feature-card";
+export type { FeatureCardProps } from "./components/domain/feature-card";
+
+export { StatusDiagram } from "./components/domain/status-diagram";
+export type {
+  StatusVariant,
+  StatusRow,
+  StatusDiagramProps,
+} from "./components/domain/status-diagram";
+
+export { ComparisonCard } from "./components/domain/comparison-card";
+export type { ComparisonCardProps } from "./components/domain/comparison-card";
+
+export { VisdomStrip } from "./components/domain/visdom-strip";
+export type {
+  VisdomProduct,
+  VisdomStripProps,
+} from "./components/domain/visdom-strip";
+
 // Layout Components
 export { DocLayout } from "./components/layout/doc-layout";
 export type {

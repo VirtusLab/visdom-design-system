@@ -12,7 +12,8 @@
       "Bash(grep -r \"hardcoded\\\\|rgba\\\\|#[0-9a-fA-F]\\\\{3,6\\\\}\\\\|rgb\\(\" /Users/askowronski/Projects/virtus-lab-ai-maturity-matrix/src/components --include=\"*.tsx\")",
       "Bash(grep *)",
       "Bash(cat)",
-      "Read(//tmp/**)"
+      "Read(//tmp/**)",
+      "Bash(npm update *)"
     ]
   }
 }

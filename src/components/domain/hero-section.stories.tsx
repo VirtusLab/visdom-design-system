@@ -73,3 +73,15 @@ export const WithoutStats: Story = {
     actions: sharedActions,
   },
 };
+
+export const WithTagline: Story = {
+  args: {
+    variant: "light",
+    badge: "Visdom Platform",
+    title: "Visibility, governance, and control for AI-assisted development",
+    subtitle:
+      "A complete platform that gives engineering leaders confidence that AI tools are being used safely, effectively, and in compliance with regulations.",
+    actions: sharedActions,
+    tagline: "Trusted by enterprise engineering teams worldwide",
+  },
+};
