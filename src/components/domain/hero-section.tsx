@@ -53,8 +53,8 @@ export function HeroSection({
             className={cn(
               "inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-medium mb-8",
               isDark
-                ? "bg-blue-900/40 border border-blue-500/20 text-blue-400"
-                : "bg-blue-50 border border-blue-200 text-blue-700"
+                ? "bg-primary/20 border border-primary/30 text-primary"
+                : "bg-primary/10 border border-primary/20 text-primary"
             )}
           >
             {badge}
@@ -93,10 +93,10 @@ export function HeroSection({
                   action.variant === "outline"
                     ? isDark
                       ? "border border-white/30 text-white hover:border-white/60"
-                      : "border border-border text-foreground hover:bg-accent"
+                      : "border border-border text-primary hover:bg-accent"
                     : isDark
-                    ? "bg-blue-500 text-white hover:bg-blue-400"
-                    : "bg-blue-600 text-white hover:bg-blue-500"
+                    ? "bg-primary text-primary-foreground hover:bg-primary/90"
+                    : "bg-primary text-primary-foreground hover:bg-primary/90"
                 )}
               >
                 {action.label}
