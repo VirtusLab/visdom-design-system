@@ -16,19 +16,17 @@ export function NumberedCard({
   return (
     <div
       className={cn(
-        "relative rounded-lg border border-border bg-card p-6 overflow-hidden",
+        "rounded-xl border border-white/10 bg-white/5 p-6",
         className
       )}
     >
-      <span className="absolute -top-2 -left-1 text-7xl font-extrabold text-foreground/5 select-none leading-none">
+      <span className="block text-5xl font-extrabold text-white/90 mb-3 leading-none">
         {number}
       </span>
-      <div className="relative">
-        <h3 className="text-lg font-bold text-foreground mb-2">{title}</h3>
-        <p className="text-sm text-muted-foreground leading-relaxed">
-          {description}
-        </p>
-      </div>
+      <strong className="block text-sm font-semibold text-white mb-2">
+        {title}
+      </strong>
+      <p className="text-sm text-white/60 leading-relaxed">{description}</p>
     </div>
   );
 }
