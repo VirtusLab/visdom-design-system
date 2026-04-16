@@ -8,9 +8,16 @@ export interface FooterLink {
 
 export interface FooterProps {
   brand?: ReactNode;
-  links: FooterLink[];
+  links?: FooterLink[];
   className?: string;
 }
+
+const DEFAULT_LINKS: FooterLink[] = [
+  { label: "VirtusLab", href: "https://virtuslab.com" },
+  { label: "GitHub", href: "https://github.com/VirtusLab" },
+  { label: "Blog", href: "https://virtuslab.com/blog/ai/" },
+  { label: "Contact", href: "https://virtuslab.com/contact" },
+];
 
 const DefaultBrand = () => (
   <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -21,12 +28,13 @@ const DefaultBrand = () => (
 );
 
 export function Footer({ brand, links, className }: FooterProps) {
+  const resolvedLinks = links ?? DEFAULT_LINKS;
   return (
     <footer className={cn("py-16 border-t border-border", className)}>
       <div className="max-w-[1200px] mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
         {brand ?? <DefaultBrand />}
         <div className="flex items-center gap-8">
-          {links.map((link) => (
+          {resolvedLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
